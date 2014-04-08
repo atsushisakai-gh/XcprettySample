@@ -1,9 +1,4 @@
 language: objective-c
 
-before_install:
-  - sudo rvm use ruby-`cat .ruby-version`
-  - bundle install
-gmefile:
-  - Gemfile
 script:
   - bundle exec rake default
