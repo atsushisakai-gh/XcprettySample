@@ -28,7 +28,12 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertTrue(NO, @"BOOL is NO");
+}
+
+- (void)testExample2
+{
+    XCTAssertTrue(YES, @"BOOL is YES");
 }
 
 @end
