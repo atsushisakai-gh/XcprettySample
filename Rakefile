@@ -1,5 +1,5 @@
 SCHEME      = "XcprettySample"
-DESTINATION = "name=iPhone Retina (3.5-inch),OS=7.0"
+DESTINATION = "name=iPhone Retina (3.5-inch),OS=7.1"
 
 desc "unit test"
 task :default do
